@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+<div class="container ">
+  <div>
+    <label class="label-exchange m-1 p-3 mw-100">Exchange</label>
+    <input type="date" id="date" name="trip-start" value="2023-06-25">
+  </div>
+  <input type="text" class="form-control m-1 p-3" placeholder="Amount" id="amount_coin">
+
+  <select class="form-select m-1 p-3" id="from_coin">
+  </select>
+  <select class="form-select m-1 p-3" id="to_coin">
+  </select>
+
+  <button type="button" id="btn_exchange" class="btn btn-primary m-1 p-3 w-100">Exchange</button>
+</div>
+<table id="table">
+  <tr class="header-table">
+    <td>Валюта</td>
+    <td>Скорочена назва</td>
+    <td>Ціна</td>
+  </tr>
+
+</table>
+  <script src="exchanger.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

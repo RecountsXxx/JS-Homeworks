@@ -1,0 +1,15 @@
+html, body {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#myCanvas {
+  display: block;
+  border: 2px solid red;
+  margin: 0 auto;
+  font-family: 'Courier New', Courier, monospace;
+}

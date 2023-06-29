@@ -1,0 +1,84 @@
+body{
+    background: #A7D7C5;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Dubai
+}
+
+
+#regForm{
+    background: whitesmoke;
+    width: 400px;
+    height: 410px;
+    border-radius: 25px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#logForm{
+    background: whitesmoke;
+    width: 400px;
+    height: 350px;
+    border-radius: 25px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#top_label{
+    margin:25px 5px 5px;
+}
+#info_label{
+    font-weight: 100;
+    text-align: center;
+    width: 80%;
+    margin: 0px 0px;
+}
+#email_adress{
+    margin-top: 25px;
+}
+input[type="text"]{
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    padding: 13px;
+    width: 70%;
+    margin-top: 13px;
+    font-family: Dubai;
+
+}
+
+#create_account_btn{
+    margin-top: 15px;
+    border-radius: 15px;
+    background: #84C7AE;
+    border-radius: 23.011px;
+    border: none;
+    height: 12%;
+    width: 60%;
+    color: white;
+    font-family: Dubai;
+    font-weight: 500;
+    font-size: 20px;
+    transition: background-color 0.5s ease;
+}
+#create_account_btn:hover{
+    background: #32403B;
+    cursor: pointer;
+}
+#click_login_or_register{
+    font-style: italic;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#already_have_or_register{
+    font-family: Dubai;
+    color: #32403B;
+    font-weight: 200;
+    height: 10px;
+    margin: 5px 0px;
+}

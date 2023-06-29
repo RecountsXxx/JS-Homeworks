@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#game {
+    width: 600px;
+
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.player-x {
+    background: url("https://img.icons8.com/emoji/192/red-circle-emoji.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: transparent;
+}
+
+.player-o {
+    background: url("https://img.icons8.com/emoji/192/blue-circle-emoji.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: transparent;
+}
+
+.winner {
+    background-color: greenyellow;
+}
